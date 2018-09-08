@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   name_hash.collect do |item, price|
-    puts "Uh"
+    price.sort
   end
+  return price[0]
 end
